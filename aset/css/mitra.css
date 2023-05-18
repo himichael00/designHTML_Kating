@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.gambar{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    text-align: center;
+}

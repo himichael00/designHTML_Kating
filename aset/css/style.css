@@ -1,0 +1,77 @@
+
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+    @media (min-height: 800px) {
+        #atassatu{
+           object-position: none;
+        }
+    }
+
+#atassatu a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+    #atassatu a i{
+    margin-right: 10px;
+  
+}
+#atassatu a:hover{
+    color: rgb(177, 177, 177);
+    transition: all 0.8s;
+}
+
+#navbarSupportedContent ul li a{
+    margin-left: 30px;
+}
+#navbarSupportedContent :hover{
+    color: blue;
+    transition: all 1s;
+}
+input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: rgb(92, 92, 92);
+    outline: none;
+    border-radius: 10px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    background-color: rgb(31, 0, 209);
+}
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: .5s ease;
+}
+
+input[type="checkbox"]:checked::before{
+    transform: translateX(20px);
+}
+.backroundbody{
+    background-color: rgb(10, 6, 32);
+    color: white;
+}
+
